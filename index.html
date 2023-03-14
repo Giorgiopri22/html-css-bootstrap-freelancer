@@ -13,10 +13,11 @@
     <header>
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-              <a class="navbar-brand text-light" href="#">START BOOTSTRAP</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
+                
+                <a class="navbar-brand text-light" href="#">START BOOTSTRAP</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
@@ -41,7 +42,9 @@
             </div>
             <div class="container text-center">
                 <h1 class="text-light">START BOOTSTRAP</h1>
-                <i class="fa-solid fa-star text-light"></i>
+                <div class="star-divider">
+                    <i class="fa-solid fa-star text-light"></i>
+                </div>
                 <p class="text-light">GRAPHIC ARTIST- WEB DESIGNER-ILLUSTRATOR</p>
             </div>
         </section>
@@ -49,9 +52,11 @@
         <section id="portfolio">
             <div class="container text-center">
                 <h2 class="text-dark"> PORTFOLIO</h2>
-                <i class="fa-solid fa-star text-dark"></i>
+                <div class="star-divider-dark">
+                    <i class="fa-solid fa-star text-dark"></i>
+                </div>
             </div>
-            <div class="row container-lg mt-3 mb-3">
+            <div class="row container-md my-3">
                 <div class="col-12 col-md-6 col-lg-4">
                     <img class="img-fluid" src="assets/img/cabin.png" alt="">
                 </div>
@@ -76,7 +81,9 @@
         <section id="about">
             <div class="container text-center pt-3">
                 <h2 class="text-light">ABOUT</h2>
-                <i class="fa-solid fa-star text-light"></i>
+                <div class="star-divider">
+                    <i class="fa-solid fa-star text-light"></i>
+                </div>
             </div>
             <div class="d-flex container-md">
                 <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut dolor ab tenetur perferendis laudantium sit illo earum eius nulla magnam placeat sed nesciunt quod architecto, hic dolorum, ipsa doloribus eos!</p>
@@ -89,8 +96,10 @@
 
         <section id="contact-me">
             <div class="container text-center">
-                <h2 class="text-dark">CONTACT ME</h2>   
-                <i class="fa-solid fa-star text-dark"></i>
+                <h2 class="text-dark">CONTACT ME</h2>
+                <div class="star-divider-dark">
+                    <i class="fa-solid fa-star text-dark"></i>
+                </div>  
             </div>
             <div class="container-md">
                 <div class="mb-3">
@@ -106,33 +115,39 @@
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
                 <hr class="mt-5">
-                <div>
-                    <a class="btn-form" href="#">Send</a>
-                </div>
+                
+                <a class="btn-form" href="#">Send</a>
+                
             </div>
         </section>
     </main>
 
     <footer>
-        <section id="info-social" class="d-flex justify-content-between container">
-            <div>
+        <section id="info-social" class="row container-md p-3">
+            <div class="text-center text-light col-12 col-md-4">
                 <h3>LOCATION</h3>
                 <p>2215 Jhon Daniel Drive Clark, MO</p>
                 <p>54243</p>
             </div>
-            <div>
+            <div class="text-center text-light col-12 col-md-4 py-2">
                 <h3>AROUND THE WEB</h3>
                 <i class="fa-brands fa-facebook"></i>
                 <i class="fa-brands fa-google-plus-g"></i>
                 <i class="fa-brands fa-twitter"></i>
                 <i class="fa-brands fa-linkedin"></i>
             </div>
-            <div>
+            <div class="text-center text-light col-12 col-md-4">
                 <h3>ABOUT FREELANCER</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam perspiciatis debitis, veniam sint suscipit sequi pariatur recusandae. Modi mollitia vero repellendus! Ad nam maiores cum id fugiat ex voluptas magni.</p>
             </div>
         </section>
     </footer>
+
+    <section id="sub-footer">
+        <div class="text-center text-light py-4">
+            <p>Copyright Your Website 2019</p>
+        </div>
+    </section>
 
 
 
